@@ -18,15 +18,28 @@ let ValueInNumber = Number(score)
 //*********************************Operations******************************/
 
 
-let value=3
-let NegativeVal=-value
-let str1= "Chetan"
-let str2= " "+ "Pratap"
+// let value=3
+// let NegativeVal=-value
+// let str1= "Chetan"
+// let str2= " "+ "Pratap"
 
-let str3= str1+str2
-console.log(NegativeVal)
-console.log(str3)
-console.log("1"+2)
-console.log(1+"2")
-console.log("1"+2+2)
-console.log(1+2+"2")
+// let str3= str1+str2
+// console.log(NegativeVal)
+// console.log(str3)
+// console.log("1"+2)
+// console.log(1+"2")
+// console.log("1"+2+2)
+// console.log(1+2+"2")
+// console.log(+true)
+// console.log(+"")
+
+let x =3;
+let x2= 3n;
+const y2=x++;
+
+console.log(x)
+console.log(x2);
+console.log(y2)
+
+// link to study
+// https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
